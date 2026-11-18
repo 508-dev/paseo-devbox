@@ -1,0 +1,8 @@
+{
+  "id": "paseo-devbox",
+  "name": "Devbox for Paseo",
+  "description": "Find development services and open the same checkout from a Paseo workspace.",
+  "requirements": {
+    "paseo": ">=0.16.1 <0.17.0"
+  }
+}

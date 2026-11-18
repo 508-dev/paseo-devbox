@@ -1,0 +1,38 @@
+{
+  "name": "@508-dev/paseo-devbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Find development services and open the same checkout from a Paseo workspace.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/508-dev/paseo-devbox.git"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "server/",
+    "shared/",
+    "!client/*.test.ts",
+    "!server/*.test.ts"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test client/*.test.ts server/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.15.4",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.0",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "typescript": "5.9.3",
+    "zod": "4.4.3"
+  }
+}
