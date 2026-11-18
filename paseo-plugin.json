@@ -3,6 +3,6 @@
   "name": "Devbox for Paseo",
   "description": "Find development services and open the same checkout from a Paseo workspace.",
   "requirements": {
-    "paseo": ">=0.16.1 <0.17.0"
+    "paseo": ">=0.13.0 <0.17.0"
   }
 }
